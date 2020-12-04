@@ -58,7 +58,7 @@ while True:
 		#right eye ratio
 		right_eye_ratio =eyeRatio(right_eye)
 
-		if left_eye_ratio < 5.0 and right_eye_ratio < 4.5:
+		if left_eye_ratio < 4.5 and right_eye_ratio < 4.5:
 			time1 = time.time()
 		else:
 			time2 = time.time()
